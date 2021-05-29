@@ -2,7 +2,7 @@
 * @name Simply_Darker
 * @author Rockou_
 * @description Darker theme for discord | Noto sans font | Still a Work In Progress
-* @version 0.2.4
+* @version 0.2.4.1
 */
 
 
@@ -20,13 +20,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
-body {
-	font-family: "Noto Sans";
-}
-
 /* now font overwrite noto sans ftw */
 :root {
-	font-family: "Noto Sans", sans-serif !important;
+	font-family: "Noto Sans", sans-serif;
     --font-primary: "Noto Sans", sans-serif !important;
     --font-display: "Noto Sans", sans-serif !important;
     --font-code: Consolas, "Noto Sans", sans-serif !important;
