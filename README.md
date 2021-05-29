@@ -24,3 +24,5 @@ No.
 
 **Is this your first project using CSS? How much experience do you have?**
 Yes, it is my first theme and I don't have much experience.
+
+![Small preview](https://raw.githubusercontent.com/Rockouunderscore/Simply_Darker_Discord_Theme/main/2021.05.29_03.55.12.png)
