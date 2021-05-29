@@ -2,7 +2,7 @@
 * @name Simply_Darker
 * @author Rockou_
 * @description Darker theme for discord | Noto sans font | Still a Work In Progress
-* @version 0.2.3.1
+* @version 0.2.4
 */
 
 
@@ -22,6 +22,18 @@
 
 body {
 	font-family: "Noto Sans";
+}
+
+/* now font overwrite noto sans ftw */
+:root {
+	font-family: "Noto Sans", sans-serif !important;
+    --font-primary: "Noto Sans", sans-serif !important;
+    --font-display: "Noto Sans", sans-serif !important;
+    --font-code: Consolas, "Noto Sans", sans-serif !important;
+    --font-korean: "Noto Sans", sans-serif !important;
+    --font-japanese: "Noto Sans", sans-serif !important;
+    --font-chinese-simplified: "Noto Sans", sans-serif !important;
+    --font-chinese-traditional: "Noto Sans", sans-serif !important;
 }
 
 :root {
@@ -145,8 +157,6 @@ body {
 	--brand-experiment-95a: rgba(88,101,242,0.95);
 /*	--font-display: Ginto,"Helvetica Neue",Helvetica,Arial,sans-serif; */
 	--control-brand-foreground: var(--control-brand-foreground-new);
-	
-	--font-display: Noto sans !important;
 }
 
 
@@ -433,7 +443,6 @@ img::selection{
 .userPopout-3XzG_A{
 	width: 320 !important;
 }
-
 .tierBody-x9kBBp{
 	background-color: rgb(25,25,25) !important;
 	color: rgb(255,255,255) !important;
@@ -761,6 +770,16 @@ img::selection{
 	top: 16px;
 	left: 16px;
 }
+.avatarPositionPremium-1QenYe {
+	top: 100px;
+}
+.profileBannerPremium-35utuo {
+	margin: 10px;
+	margin-bottom: 30px;
+/* 	left: 50%; */
+/* 	transform: translate(-50% ,0); */
+	background-color: rgb(0,0,0);
+}
 .theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6 {
 	background-color: rgba(0,0,0,0);
 }
@@ -804,4 +823,96 @@ img::selection{
 /* Invite box */
 .theme-dark .contentWrapper-3WC1ID {
 	background: rgb(30,30,30);
+}
+
+/* Server Creation Popout */
+.container-1CE3eW {
+    width: 440px;
+    max-height: 580px;
+    background-color: rgb(20,20,20);
+}
+.header-3msK0M {
+    padding: 24px 16px 2px;
+	background
+}
+
+/* Text */
+.title-3w8xhj {
+	color: rgb(222,222,222);
+}
+
+.colorHeaderSecondary-3Sp3Ft {
+    color: rgb(169,169,169);
+}
+/* Buttons */
+.container-UC8Ug1 {
+    border: 1px solid rgb(35,35,35);
+    background-color: rgb(25,25,25);
+}
+.container-UC8Ug1:hover {
+    background-color: rgb(15,15,15);
+}
+.colorStandard-2KCXvj {
+    color: rgb(200,200,200);
+}
+/* arrow */
+.arrow-hynWUl {
+	filter: invert(38%) sepia(14%) saturate(0%) hue-rotate(182deg) brightness(91%) contrast(78%);
+}
+/* footer */
+.theme-dark .footer-2gL1pp {
+	background-color: rgb(20,20,20);
+	-webkit-box-shadow: inset 0 0 0 rgba(0,0,0,0);
+	box-shadow: inset 0 0 0 rgba(0,0,0,0);
+}
+.footerTitle-2CYZch {
+    color: rgb(222,222,222);
+}
+/* close button */
+.close-hZ94c6 {
+    color: rgb(222,222,222);
+	opacity: 0.8;
+}
+.close-hZ94c6:hover {
+    opacity: 1;
+    color: rgb(111,111,111);
+}
+.templatesList-2E6rTe{
+	border: solid rgb(35,35,35);
+	border-width: 1px 0 1px 0;
+	border-radius: 0 0 0 0;
+	padding: 8px 8px 8px 16px;
+}
+/* tell us more about your server blahblah */
+.header-1BLHoL {
+	padding: 24px 16px 2px;
+}
+.title-LqAd9K {
+	color: rgb(222,222,222);
+}
+.backButton-iA7KIs {
+	color: rgb(255,255,255); 
+}
+/* customize your server */
+.header-287ONi {
+    padding: 24px 16px 2px;
+}
+.title-Z_XiOC {
+    color: rgb(222,222,222);
+}
+/* backbutton????? */
+.sizeMin-1mJd1x {
+    color: rgb(255,255,255); 
+}
+/* server name placeholder */
+.theme-light ::placeholder, .theme-light input, .theme-light select, .theme-light textarea {
+    color: rgb(222,222,222);
+}
+.input-cIJ7To {
+    background-color: rgba(0,0,0,0);
+}
+
+/* guidelines */
+.guidelines-1NSoht {
+	color: rgb(111,111,111);
 }
