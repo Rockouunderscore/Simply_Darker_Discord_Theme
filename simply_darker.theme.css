@@ -2,7 +2,7 @@
 * @name Simply_Darker
 * @author Rockou_
 * @description Darker theme for discord | Noto sans font | Still a Work In Progress
-* @version 0.2.4.1
+* @version 0.2.5.3
 */
 
 
@@ -17,19 +17,23 @@
 #bd-pub-li {
 	--public_server_bd_variable_display_none_or_flex: none;
 }
+	/* this disables or enables the sticker button / set - "none" to disable | "block" to enable */
+.container-JHR0NT, .stickerButton-3OEgwj {
+	--var_sticker_button_none_or_block: none;
+}
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 /* now font overwrite noto sans ftw */
 :root {
 	font-family: "Noto Sans", sans-serif;
-    --font-primary: "Noto Sans", sans-serif !important;
-    --font-display: "Noto Sans", sans-serif !important;
-    --font-code: Consolas, "Noto Sans", sans-serif !important;
-    --font-korean: "Noto Sans", sans-serif !important;
-    --font-japanese: "Noto Sans", sans-serif !important;
-    --font-chinese-simplified: "Noto Sans", sans-serif !important;
-    --font-chinese-traditional: "Noto Sans", sans-serif !important;
+	--font-primary: "Noto Sans", sans-serif !important;
+	--font-display: "Noto Sans", sans-serif !important;
+	--font-code: Consolas, "Noto Sans", sans-serif !important;
+	--font-korean: "Noto Sans", sans-serif !important;
+	--font-japanese: "Noto Sans", sans-serif !important;
+	--font-chinese-simplified: "Noto Sans", sans-serif !important;
+	--font-chinese-traditional: "Noto Sans", sans-serif !important;
 }
 
 :root {
@@ -588,15 +592,15 @@ img::selection{
 /* Game Activity */
 
 /* Current Game */
-.theme-dark .notDetected-33MY4s, .theme-light .notDetected-33MY4s {
+/*.theme-dark .notDetected-33MY4s, .theme-light .notDetected-33MY4s {
 	background-color: rgb(69,69,69);
-}
+}*/
 
 /* Game Names */
-.theme-dark .gameNameInput-385LoS:focus, .theme-dark .gameNameInput-385LoS:hover {
+/*.theme-dark .gameNameInput-385LoS:focus, .theme-dark .gameNameInput-385LoS:hover {
 	border-color: rgb(0,0,0);
 	background-color: rgb(30,30,30);
-}
+}*/
 
 /* On off Switches */
 .container-3auIfb[style*="background-color: rgb(67, 181, 129);"] {
@@ -731,34 +735,35 @@ img::selection{
 	width: 320px !important;
 	background-color: rgb(25,25,25);
 }
-.activity-fViXj7 {
+.activity-3v9l4T {
 	position: relative;
 	padding: 16px;
 	border-bottom: 1px solid rgba(0,0,0,0.5);
 	border-top: 1px solid rgba(0,0,0,0.5);
 	background-color: rgba(100,100,100,0.05);
 }
-.activity-fViXj7:hover {
+.activity-3v9l4T:hover {
 	background-color: rgba(100,100,100,0.1);
 }
 .headerNormal-1l1Znk {
 	background-color: rgba(0,0,0,0);
 }
-.headerTop-2y3V6H {
+/* dead code .headerTop-2y3V6H {	background-color: rgba(0,0,0,0);	border-bottom: 0;	padding: 80px 16px 16px !important;}*/
+.headerTop-2cWpdB {
 	background-color: rgba(0,0,0,0);
 	border-bottom: 0;
-	padding: 80px 16px 16px;
+	padding: 80px 16px 16px !important;
 }
-.avatar-22FtUu {
+.avatar-37jOim {
 	border: 6px solid rgb(25,25,25);
 	background-color: rgb(25,25,25);
 	width: 128px !important;
 	height: 128px !important;
 }
-.profileBanner-33-uE1 {
-	height: 86px;
+.popoutBanner-19WKGg {
+    height: 86px;
 }
-.avatarHint-1E3LMl {
+.avatarHint-2A3RNb {
 	width: 128px !important;
 	height: 128px !important;
 }
@@ -823,12 +828,12 @@ img::selection{
 
 /* Server Creation Popout */
 .container-1CE3eW {
-    width: 440px;
-    max-height: 580px;
-    background-color: rgb(20,20,20);
+	width: 440px;
+	max-height: 580px;
+	background-color: rgb(20,20,20);
 }
 .header-3msK0M {
-    padding: 24px 16px 2px;
+	padding: 24px 16px 2px;
 	background
 }
 
@@ -838,18 +843,18 @@ img::selection{
 }
 
 .colorHeaderSecondary-3Sp3Ft {
-    color: rgb(169,169,169);
+	color: rgb(169,169,169);
 }
 /* Buttons */
 .container-UC8Ug1 {
-    border: 1px solid rgb(35,35,35);
-    background-color: rgb(25,25,25);
+	border: 1px solid rgb(35,35,35);
+	background-color: rgb(25,25,25);
 }
 .container-UC8Ug1:hover {
-    background-color: rgb(15,15,15);
+	background-color: rgb(15,15,15);
 }
 .colorStandard-2KCXvj {
-    color: rgb(200,200,200);
+	color: rgb(200,200,200);
 }
 /* arrow */
 .arrow-hynWUl {
@@ -862,16 +867,16 @@ img::selection{
 	box-shadow: inset 0 0 0 rgba(0,0,0,0);
 }
 .footerTitle-2CYZch {
-    color: rgb(222,222,222);
+	color: rgb(222,222,222);
 }
 /* close button */
 .close-hZ94c6 {
-    color: rgb(222,222,222);
+	color: rgb(222,222,222);
 	opacity: 0.8;
 }
 .close-hZ94c6:hover {
-    opacity: 1;
-    color: rgb(111,111,111);
+	opacity: 1;
+	color: rgb(111,111,111);
 }
 .templatesList-2E6rTe{
 	border: solid rgb(35,35,35);
@@ -891,24 +896,62 @@ img::selection{
 }
 /* customize your server */
 .header-287ONi {
-    padding: 24px 16px 2px;
+	padding: 24px 16px 2px;
 }
 .title-Z_XiOC {
-    color: rgb(222,222,222);
+	color: rgb(222,222,222);
 }
 /* backbutton????? */
 .sizeMin-1mJd1x {
-    color: rgb(255,255,255); 
+	color: rgb(255,255,255); 
 }
 /* server name placeholder */
 .theme-light ::placeholder, .theme-light input, .theme-light select, .theme-light textarea {
-    color: rgb(222,222,222);
+	color: rgb(222,222,222);
 }
 .input-cIJ7To {
-    background-color: rgba(0,0,0,0);
+	background-color: rgba(0,0,0,0);
 }
 
 /* guidelines */
 .guidelines-1NSoht {
 	color: rgb(111,111,111);
+}
+
+/* embed */
+.embedFull-2tM8-- {
+    border-left: 4px solid rgb(10,10,10);
+    background: rgb(25,25,25);
+}
+
+
+/* transparency settings 
+.layer-3QrUeG.baseLayer-35bLyl {
+	background-color: transparent;
+}
+/*  */
+
+.container-JHR0NT {
+	display: var(--var_sticker_button_none_or_block) !important ;
+}
+.stickerButton-3OEgwj {
+    display: var(--var_sticker_button_none_or_block) !important ;
+}
+/* beta feature about me */
+.aboutMeSection---MkQa {
+    padding: 5px;
+    background-color: var(--background-floating);
+}
+/* join a server codes */
+.input--jS-j2 {
+    background-color: rgb(20,20,20);
+}
+.base-1x0h_U {
+    color: rgb(222,222,222);
+}
+.sampleLink-2NLvZg {
+    color: rgb(169,169,169);
+}
+.theme-dark .lookLink-9FtZy-.colorPrimary-3b3xI6 {
+    color: rgb(255,255,255);
 }
