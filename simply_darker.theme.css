@@ -1,7 +1,7 @@
 /**
 * @name Simply_Darker
 * @author Rockou_
-* @description Darker theme for discord | Noto sans font | Still a Work In Progress
+* @description Darker theme for discord | Fira sans font | Still a Work In Progress
 * @version 0.2.5.4
 */
 
@@ -23,14 +23,12 @@
 	--var_sticker_button_none_or_block: none;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
-
-/* now font overwrite noto sans ftw */
+/* now font overwrite fira sans ftw */
 :root {
-	font-family: "Noto Sans", sans-serif;
-	--font-primary: "Noto Sans", sans-serif !important;
-	--font-display: "Noto Sans", sans-serif !important;
-	--font-code: Consolas, "Noto Sans", sans-serif !important;
+	font-family: "Fira Sans", sans-serif;
+	--font-primary: "Fira Sans", sans-serif !important;
+	--font-display: "Fira Sans", sans-serif !important;
+	--font-code: Consolas, "Fira Sans", sans-serif !important;
 }
 
 :root {
@@ -1037,3 +1035,6 @@ input.inputDefault-3FGxgL.input-2g-os5.input-2z42oC {
 	background-color: rgb(25, 25, 25);
 }
 
+/* * { */
+/* 	background-color: rgb(255, 255, 255); */
+/* } */
