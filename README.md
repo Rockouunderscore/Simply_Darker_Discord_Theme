@@ -1,6 +1,12 @@
 # Simply_Darker_Discord_Theme
 Discord theme for BBD
 
+# Outdated~
+Has not been updated for a while, some parts may not look as expected
+
+# Not in theme repo
+My theme has no been accepted, as it is my first theme, and doesn't change the look or feel of discord in a major way
+
 **Addon name:**
 Simply Darker
 
@@ -24,7 +30,5 @@ No.
 
 **Is this your first project using CSS? How much experience do you have?**
 Yes, it is my first theme and I don't have much experience.
-
-# outdated
 
 ![Small preview](https://raw.githubusercontent.com/Rockouunderscore/Simply_Darker_Discord_Theme/main/2021.05.29_03.55.12.png)
